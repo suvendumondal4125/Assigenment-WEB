@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <fieldset>
+
+        <h2>Absolute classes registration</h2>
+        <p style="color:red;">* required field</p>
+        <p style="color:red;">* You must agree to terms</p>
+        <form>
+            <table>
+                <tr>
+                    <td>Name : </td>
+                    <td>
+                        <input type="text" required>
+                        <span style="color:red;">*
+                        </span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>E-mail : </td>
+                    <td>
+                        <input type="email" required>
+                        <span style="color:red">*
+                        </span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Time : </td>
+                    <td>
+                        <input type="time" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Classes : </td>
+                    <td>
+                        <textarea name="" id="" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Gender :</td>
+                    
+                    <td>
+                        <input type="radio" name="MyGendar" required>Male
+                        <input type="radio" name="MyGendar" required>Female
+                        <samp style="color: rgb(255, 5, 5);">*</samp>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Select : </td>
+                    <td>
+                        <select name="name" multiple size="3">
+                            <option value="Android">Android</option>
+                            <option value="Java">Java</option>
+                            <option value="C#">C#</option>
+                            <option value="Data Base">Data Base</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agree : </td>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+    
+            </table>
+    
+            
+        </form>
+        <h2>Your given values are as : </h2>
+        <p>Your name is <br><br> Your email address is <br><br> Your class time at <br><br> Your class info <br><br> Your gender is </p>
+    </fieldset>
+    
+</body>
+</html>
